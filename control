@@ -1,0 +1,9 @@
+Package: ws.hbang.totesactivated
+Name: TotesActivated
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Disable all activation errors
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Section: Tweaks
