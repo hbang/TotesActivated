@@ -1,7 +1,9 @@
 %hook SBAlertItemsController
 
--(void)activateAlertItem:(NSObject *)item {
-	if (item.class != %c(SBActivationFailedAlertItem)) %orig;
+- (void)activateAlertItem:(id)alertItem {
+	if (alertItem.class != %c(SBActivationFailedAlertItem)) {
+		%orig;
+	}
 }
 
 %end
